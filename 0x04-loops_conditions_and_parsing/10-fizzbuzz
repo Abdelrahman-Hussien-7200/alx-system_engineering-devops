@@ -18,6 +18,6 @@ elif (( n % 3 == 0))
 then
 	echo "Fizz"
 else
-	echo "$i"
+	echo "$n"
 fi
 done
