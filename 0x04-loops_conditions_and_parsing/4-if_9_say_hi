@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#diplay Best School 10 times else If 9, say Hi
+#diplay Best School 10 times If 9, say Hi
 
 count=1
 while [ $count -le 10 ]
