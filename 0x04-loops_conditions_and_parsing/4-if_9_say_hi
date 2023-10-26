@@ -4,7 +4,7 @@
 CONT=0
 while [ $CONT -lt 11 ]
 do
-	if [ $CONT = 9 ]
+	if [ $CONT -eq 9 ]
 	then
 		echo "Hi"
        	else
