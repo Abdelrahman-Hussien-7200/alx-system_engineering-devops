@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #diplay Best School 10 times
-
 CONT=0
 while [ $CONT -lt 11 ]
 do
