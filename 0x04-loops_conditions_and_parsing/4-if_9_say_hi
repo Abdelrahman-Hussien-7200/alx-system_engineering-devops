@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#diplay Best School 10 times else If 9, say Hi
+
+count=1
+while [ $count -le 10 ]
+do
+	if [ $count -eq 9 ]
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	count=$((count + 1))
+done
