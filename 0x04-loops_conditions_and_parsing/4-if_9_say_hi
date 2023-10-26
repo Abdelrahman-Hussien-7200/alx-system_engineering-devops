@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-#diplay Best School 10 times If 9, say Hi
+#diplay Best School 10 times
 
-i=0
-while [ $i -lt 11 ]
+CONT=0
+while [ $CONT -lt 11 ]
 do
-	if [ $i = 9 ]
+	if [ $CONT = 9 ]
 	then
 		echo "Hi"
        	else
 		echo "Best School"
 	fi
-	let i+=1
+	let CONT+=1
 done
